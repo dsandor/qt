@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/qml"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/qml"
 )
 
 func main() {

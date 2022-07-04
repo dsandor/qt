@@ -5,10 +5,10 @@ import (
 	"os"
 	"plugin"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/qml"
-	"github.com/therecipe/qt/quick"
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/qml"
+	"github.com/dsandor/qt/quick"
+	"github.com/dsandor/qt/widgets"
 )
 
 //go:generate cp main.go ./plugin

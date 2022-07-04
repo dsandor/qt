@@ -11,12 +11,12 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/gui"
+	"github.com/dsandor/qt/widgets"
 
-	"github.com/therecipe/qt/interop"
-	_ "github.com/therecipe/qt/interop/dart"
+	"github.com/dsandor/qt/interop"
+	_ "github.com/dsandor/qt/interop/dart"
 )
 
 var (

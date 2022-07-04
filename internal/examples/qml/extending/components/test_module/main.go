@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/quick"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/gui"
+	"github.com/dsandor/qt/quick"
 
-	_ "github.com/therecipe/qt/internal/examples/qml/extending/components/test_module/component"
+	_ "github.com/dsandor/qt/internal/examples/qml/extending/components/test_module/component"
 )
 
 func main() {

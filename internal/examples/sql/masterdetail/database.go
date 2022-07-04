@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/sql"
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt/sql"
+	"github.com/dsandor/qt/widgets"
 )
 
 var db *sql.QSqlDatabase

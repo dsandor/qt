@@ -1,16 +1,17 @@
+//go:build !qml
 // +build !qml
 
 package view
 
 import (
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt/widgets"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/controller"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/album"
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/artist"
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/detail"
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view/dialog"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/view/album"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/view/artist"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/view/detail"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/view/dialog"
 )
 
 var ViewControllerInstance *viewController

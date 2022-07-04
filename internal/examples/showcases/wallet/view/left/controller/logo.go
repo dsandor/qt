@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/gui"
 )
 
 type logoController struct {

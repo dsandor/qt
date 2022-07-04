@@ -5,11 +5,11 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/qml"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/gui"
+	"github.com/dsandor/qt/qml"
 
-	_ "github.com/therecipe/qt/internal/examples/3rdparty/quickflux/quickflux"
+	_ "github.com/dsandor/qt/internal/examples/3rdparty/quickflux/quickflux"
 )
 
 func main() {

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/dsandor/qt/internal/cmd"
+	"github.com/dsandor/qt/internal/utils"
 )
 
 const (
@@ -68,7 +68,6 @@ func IsPackedMap(v string) bool {
 		strings.HasPrefix(v, "QMultiMap<") ||
 		strings.HasPrefix(v, "QHash<") ||
 		strings.HasPrefix(v, "QMultiHash<")) &&
-
 		strings.Count(v, "<") == 1 //TODO:
 }
 

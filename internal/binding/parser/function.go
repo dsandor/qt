@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/dsandor/qt/internal/utils"
 )
 
 type Function struct {
@@ -510,7 +510,6 @@ func (f *Function) IsSupported() bool {
 		f.Fullname == "QSqlTableModel::submit" ||
 		f.Fullname == "QFormLayout::itemAt" ||
 		f.Fullname == "QGraphicsGridLayout::itemAt" ||
-
 		((f.ClassName() == "QGraphicsGridLayout" || f.ClassName() == "QFormLayout") && f.Name == "itemAt" && f.OverloadNumber == "2") {
 		return false
 	}
@@ -603,7 +602,6 @@ func (f *Function) IsDerivedFromVirtual() bool {
 
 			for _, cf := range bclass.Functions {
 				if cf.Name == f.Name &&
-
 					cf.Output == f.Output && len(cf.Parameters) == len(f.Parameters) &&
 					cf.Virtual != "non" {
 
@@ -642,7 +640,6 @@ func (f *Function) IsDerivedFromImpure() bool {
 
 			for _, cf := range bclass.Functions {
 				if cf.Name == f.Name &&
-
 					cf.Output == f.Output && len(cf.Parameters) == len(f.Parameters) &&
 					cf.Virtual == IMPURE {
 
@@ -676,7 +673,6 @@ func (f *Function) IsDerivedFromPure() bool {
 
 			for _, cf := range bclass.Functions {
 				if cf.Name == f.Name &&
-
 					cf.Output == f.Output && len(cf.Parameters) == len(f.Parameters) &&
 					cf.Virtual == PURE {
 

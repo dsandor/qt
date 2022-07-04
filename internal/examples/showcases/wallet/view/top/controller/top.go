@@ -1,6 +1,6 @@
 package controller
 
-import "github.com/therecipe/qt/core"
+import "github.com/dsandor/qt/core"
 
 type topController struct {
 	core.QObject

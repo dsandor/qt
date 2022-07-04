@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/dsandor/qt/internal/utils"
 )
 
 func (c *Class) add() {

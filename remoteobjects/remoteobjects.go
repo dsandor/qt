@@ -1,10 +1,11 @@
+//go:build !minimal
 // +build !minimal
 
 package remoteobjects
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/internal"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/internal"
 	"unsafe"
 )
 

@@ -1,3 +1,4 @@
+//go:build android || android_emulator
 // +build android android_emulator
 
 package androidextras
@@ -9,8 +10,8 @@ package androidextras
 import "C"
 import (
 	"errors"
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
+	"github.com/dsandor/qt"
+	"github.com/dsandor/qt/core"
 	"strings"
 	"unsafe"
 )

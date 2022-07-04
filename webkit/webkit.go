@@ -1,3 +1,4 @@
+//go:build !minimal
 // +build !minimal
 
 package webkit
@@ -8,12 +9,12 @@ package webkit
 //#include "webkit.h"
 import "C"
 import (
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/network"
-	"github.com/therecipe/qt/printsupport"
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/gui"
+	"github.com/dsandor/qt/network"
+	"github.com/dsandor/qt/printsupport"
+	"github.com/dsandor/qt/widgets"
 	"runtime"
 	"strings"
 	"unsafe"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/network"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/network"
 )
 
 //the custom QNetworkReply is partially modeled after

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/dsandor/qt/internal/binding/parser"
+	"github.com/dsandor/qt/internal/utils"
 )
 
 func CppInputParameters(function *parser.Function) string {

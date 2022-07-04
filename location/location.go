@@ -1,11 +1,12 @@
+//go:build !minimal
 // +build !minimal
 
 package location
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/internal"
-	"github.com/therecipe/qt/positioning"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/internal"
+	"github.com/dsandor/qt/positioning"
 	"unsafe"
 )
 

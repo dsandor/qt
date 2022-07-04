@@ -1,13 +1,14 @@
+//go:build !qml
 // +build !qml
 
 package detail
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/gui"
+	"github.com/dsandor/qt/widgets"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/controller"
 )
 
 type detailController struct {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/therecipe/qt/androidextras"
-	"github.com/therecipe/qt/widgets"
+	"github.com/dsandor/qt/androidextras"
+	"github.com/dsandor/qt/widgets"
 )
 
 func main() {

@@ -1,9 +1,9 @@
 package dialog
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/dsandor/qt/core"
 
-	"github.com/therecipe/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
+	"github.com/dsandor/qt/internal/examples/showcases/wallet/wallet/dialog/controller"
 )
 
 type dialogTemplate struct {

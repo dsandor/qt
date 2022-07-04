@@ -1,12 +1,13 @@
+//go:build qml
 // +build qml
 
 package artist
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/quick"
+	"github.com/dsandor/qt/core"
+	"github.com/dsandor/qt/quick"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/dsandor/qt/internal/examples/sql/masterdetail_qml/controller"
 )
 
 func init() {
